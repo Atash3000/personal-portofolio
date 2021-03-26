@@ -16,7 +16,7 @@
 .App{
   height:100%;
   
-
+  overflow-x: hidden !important;
   &__container{
     position: relative;
     padding: 11rem 0 0 0;
