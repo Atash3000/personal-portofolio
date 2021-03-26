@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom';
 import './Navigation.scss';
 
 
+ 
 
-
-function Navigation(props) {
+function Navigation(props) {                              
   return (
     <nav className='navbar'>
     <ul className='navbar__menu'>
