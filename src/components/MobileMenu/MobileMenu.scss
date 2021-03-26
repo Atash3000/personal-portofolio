@@ -16,7 +16,7 @@
     display: none;
     width: 39rem;
     height:200vh;
-    background-color:$color-black;
+    background-color:$color-black-light;
     z-index: 999;
     @include responsive(tablet-land){
       display: block;
