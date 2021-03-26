@@ -10,7 +10,7 @@
   display:flex;
   justify-content:flex-end;
   @include responsive(tablet-land){
-    display:none;
+   // display:none;
   }
 
 
@@ -30,6 +30,10 @@
   
     &:hover .navbar__link:hover{
       opacity: 1;
+    }
+
+    @include responsive(tablet-land){
+      display:none;
     }
     
   }
@@ -64,3 +68,4 @@
     
   }
 }
+
