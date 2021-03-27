@@ -6,6 +6,8 @@ import {useState} from 'react';
 import MobileMenu from './components/MobileMenu/MobileMenu';
 import HomeSlider from './components/HomeSlider/HomeSlider';
 import MediaBar from './components/SocialMedia/MediaBar';
+import About from './components/About/About';
+import {Link,Route,Switch} from 'react-router-dom';
 
 
 function App() {
@@ -20,15 +22,33 @@ function App() {
       <div className="wrapper">
       <div className={`App__container App__container--${open}`}>
         <Header/>
+        
         <Hamburger showMenu={showMenu} open={open}/>
         <MobileMenu/>
-        <HomeSlider/>
         <MediaBar/>
+        <Switch>
+      <Route path="/about">
+            <About />
+          </Route>
+          <Route  exact path="/">
+          <HomeSlider/>
+          </Route>
+          
+    </Switch>
+       
+      
+       
+      
       </div>
       <main>
-        
+       
+     
+     
+  
+      
       </main>
       </div>
+     
     </div>
 
   );
