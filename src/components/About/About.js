@@ -24,7 +24,7 @@ function About() {
       
       <div className="about__diagrama">
       
-      <span className="about__diagrama--react">react</span>
+      <span className="about__diagrama--react">react/redux</span>
       <span className="about__diagrama--html">html</span>
       <span className="about__diagrama--css">css/sass/scss</span>
       <span className="about__diagrama--javascript">javascript</span>
