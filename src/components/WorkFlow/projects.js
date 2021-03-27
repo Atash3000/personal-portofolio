@@ -19,7 +19,7 @@ export default  [
     "id":3,
     "name":"Safari",
     "image": '/static/media/dating-app.14cfbb54.jpg',
-    "link":"www.google.com",
+    "link":"",
     "description":"Dubai Safari Tours"
 
   },
@@ -27,7 +27,7 @@ export default  [
     "id":4,
     "name":"Safari",
     "image": '/static/media/dating-app.14cfbb54.jpg',
-    "link":"www.google.com",
+    "link":"",
     "description":"Dubai Safari Tours"
 
   },
@@ -35,7 +35,7 @@ export default  [
     "id":5,
     "name":"Safari",
     "image": '/static/media/dating-app.14cfbb54.jpg',
-    "link":"www.google.com",
+    "link":"",
     "description":"Dubai Safari Tours"
 
   },
@@ -43,7 +43,7 @@ export default  [
     "id":6,
     "name":"Safari",
     "image": '/static/media/dating-app.14cfbb54.jpg',
-    "link":"www.google.com",
+    "link":"",
     "description":"Dubai Safari Tours"
 
   }

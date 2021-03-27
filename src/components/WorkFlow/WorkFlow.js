@@ -28,7 +28,7 @@ function WorkFlow() {
 
               
             
-              <a rel="noreferrer" target="_blank" href={link} className="grid-card__link" > learn more &#8594; </a>
+              <a  target="_blank" href={link} className="grid-card__link" > learn more &#8594; </a>
               
             </div>
           )
