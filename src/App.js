@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import {useState} from 'react';
 import MobileMenu from './components/MobileMenu/MobileMenu';
 import HomeSlider from './components/HomeSlider/HomeSlider';
-
+import MediaBar from './components/SocialMedia/MediaBar';
 
 
 function App() {
@@ -22,9 +22,11 @@ function App() {
         <Header/>
         <Hamburger showMenu={showMenu} open={open}/>
         <MobileMenu/>
+        <HomeSlider/>
+        <MediaBar/>
       </div>
       <main>
-        <HomeSlider/>
+        
       </main>
       </div>
     </div>
