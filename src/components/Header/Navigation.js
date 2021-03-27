@@ -1,7 +1,10 @@
 import React from 'react'
 import './Navigation.scss';
 
-import {Link} from 'react-router-dom';
+import {Link,Route,Switch} from 'react-router-dom';
+import WorkFlow from '../WorkFlow/WorkFlow';
+import HomeSlider from '../HomeSlider/HomeSlider';
+import About from '../About/About';
 
 
  
@@ -19,7 +22,7 @@ function Navigation(props) {
         <li className='navbar__items'><Link className='navbar__link' to="/contact">contact</Link></li>
 
       </ul>
-  
+      
     </nav>      
   )
 }

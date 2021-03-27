@@ -15,7 +15,7 @@ function MobileMenu() {
 
         <li className='mobile__items'><Link className='mobile__link' to="/about">about me</Link></li>
 
-        <li className='mobile__items'><Link className='mobile__link' to="/">contact</Link></li>
+        <li className='mobile__items'><Link className='mobile__link' to="/contact">contact</Link></li>
 
       </ul>
     </nav>      
