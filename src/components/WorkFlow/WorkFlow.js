@@ -2,7 +2,7 @@ import React from 'react'
 import './WorkFlow.scss';
 import projects from './projects.js';
 import {Link} from 'react-router-dom';
-import hero from './images/dating-app.jpg'
+import hero from './images/safari.jpg'
 
 function WorkFlow() {
   return (

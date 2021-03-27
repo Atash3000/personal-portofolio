@@ -2,8 +2,8 @@ export default  [
   {
     "id":1,
     "name":"Safari",
-    "image": '/static/media/eee.a1a8e787.jpg',
-    "link":"https://yuniver.netlify.app/",
+    "image": '/static/media/safari.3c814a27.jpg',
+    "link":"https://safari-dubai.netlify.app/",
     "description":"Dubai Safari Tours"
   
   },
