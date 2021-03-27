@@ -19,7 +19,7 @@ function Navigation(props) {
         <li className='navbar__items'><Link className='navbar__link' to="/contact">contact</Link></li>
 
       </ul>
-     
+  
     </nav>      
   )
 }

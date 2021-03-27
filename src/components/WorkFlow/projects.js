@@ -5,20 +5,20 @@ export default  [
     "image": '/static/media/eee.a1a8e787.jpg',
     "link":"https://yuniver.netlify.app/",
     "description":"Dubai Safari Tours"
-   
+  
   },
   {
     "id":2,
-    "name":"Safari",
-    "image":"./images/eee.jpg", 
+    "name":"Dating app",
+    "image": '/static/media/dating-app.14cfbb54.jpg',
     "link":"www.google.com",
-    "description":"Dubai Safari Tours"
+    "description":"Real Dating app to help people find a love"
 
   },
   {
     "id":3,
     "name":"Safari",
-    "image":"./images/eee.jpg",
+    "image": '/static/media/dating-app.14cfbb54.jpg',
     "link":"www.google.com",
     "description":"Dubai Safari Tours"
 
@@ -26,7 +26,7 @@ export default  [
   {
     "id":4,
     "name":"Safari",
-    "image":"./images/eee.jpg",
+    "image": '/static/media/dating-app.14cfbb54.jpg',
     "link":"www.google.com",
     "description":"Dubai Safari Tours"
 
@@ -34,7 +34,7 @@ export default  [
   {
     "id":5,
     "name":"Safari",
-    "image":"./images/eee.jpg",
+    "image": '/static/media/dating-app.14cfbb54.jpg',
     "link":"www.google.com",
     "description":"Dubai Safari Tours"
 
@@ -42,7 +42,7 @@ export default  [
   {
     "id":6,
     "name":"Safari",
-    "image":"./images/Capture.JPG",
+    "image": '/static/media/dating-app.14cfbb54.jpg',
     "link":"www.google.com",
     "description":"Dubai Safari Tours"
 

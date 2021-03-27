@@ -2,7 +2,7 @@ import React from 'react'
 import './WorkFlow.scss';
 import projects from './projects.js';
 import {Link} from 'react-router-dom';
-import hero from './images/eee.jpg'
+import hero from './images/dating-app.jpg'
 
 function WorkFlow() {
   return (
@@ -11,24 +11,24 @@ function WorkFlow() {
         <h2 className="workflow__text">the projects i recently worked on</h2>
       </div>
       <div className="grid-card">
-        {projects.map(el =>{
-          //const {name,image,description,id,link} = project;
+        {projects.map(project =>{
+          const {name,image,description,id,link} = project;
           
           return(
-            <div key={el.id} className="grid-card__items"> 
+            <div key={id} className="grid-card__items"> 
               <div className="grid-card__image-box" >
-              <img  className="grid-card__image"  src={el.image} />
+              <img  className="grid-card__image"  src={image} />
               </div>
               <div className="grid-card__description">
-              <h3 className="grid-card__name">{el.name}</h3>
+              <h3 className="grid-card__name">{name}</h3>
                 <p className="grid-card__text">
-                  {el.description}
+                  {description}
                 </p>
               </div>
 
               
             
-              <a rel="noreferrer" target="_blank" href={el.link} className="grid-card__link" > learn more &#8594; </a>
+              <a rel="noreferrer" target="_blank" href={link} className="grid-card__link" > learn more &#8594; </a>
               
             </div>
           )

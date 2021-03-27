@@ -22,25 +22,21 @@ function App() {
     <div className="App">
       <div className="wrapper">
       <div className={`App__container App__container--${open}`}>
-        <Header/>
-        
-        <Hamburger showMenu={showMenu} open={open}/>
-        <MobileMenu/>
-        {/* <MediaBar/> */}
-        <Switch>
-      <Route path="/about">
-            <About />
-          </Route>
-          <Route  exact path="/">
+      <Header/>
+      
           <HomeSlider/>
-          </Route>
-          <Route exact path="/wokflow">
-            <WorkFlow />
-          </Route>
-    </Switch>
+          <About />
+          <WorkFlow />
+        <Hamburger showMenu={showMenu} open={open}/>
+      
+        <MediaBar/>
+        <MobileMenu/>
       </div>
       <main>
-      <WorkFlow />
+     
+    
+     
+      {/* <WorkFlow /> */}
       </main>
       </div>
     
