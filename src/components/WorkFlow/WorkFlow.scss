@@ -18,11 +18,11 @@
 
 
 
-.grid{
+.grid-card{
   display:grid;
   grid-template-columns: repeat(auto-fit,minmax(30rem ,1fr));
   grid-template-rows: repeat(auto-fit,minmax(20rem ,20rem));
-
+  height:100%;
   grid-gap:4rem;
   background-color: rgb(180, 190, 247);
   padding:5rem;
@@ -42,12 +42,15 @@
     }
   }
   &__image-box{
-  
-    
+  width: 100%;
+  overflow:hidden;
+  border:1px solid white;
+    height:100%;
   }
 
   &__image{
-
+    width: 100%;
+    display:block;
   }
 
   &__description{
