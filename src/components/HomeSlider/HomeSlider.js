@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomeSlider.scss';
-
+import {Link} from 'react-router-dom';
 
 
 
@@ -19,6 +19,7 @@ function HomeSlider() {
             </span>
             <span className="heading--sub">a full stack</span>
           </h1>
+          <Link className="heading--link" to='/'>learn more</Link>
         </div>
       </div>
       
