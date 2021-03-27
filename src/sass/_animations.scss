@@ -27,3 +27,42 @@
     }
   }
 }
+
+
+@keyframes moveToDown{
+  0%{
+    opacity:0;
+    transform:translateY(-100rem)
+  }
+  80%{
+    opacity:0.3;
+    transform:translateY(-70rem)
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+
+@keyframes moveToLeft{
+  0%{
+    opacity:0;
+    transform:translateX(100rem)
+  }
+
+
+
+  80%{
+    opacity:0;
+    transform:translateX(-5rem)
+  }
+
+ 
+  100%{
+    opacity:1;
+    transform:translateX(0);
+  }
+}
+
+

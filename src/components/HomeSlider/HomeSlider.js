@@ -11,8 +11,11 @@ function HomeSlider() {
       <div className="image-container">
         <div className="text-box">
           <h1 className="heading">
+              <span className="heading--greet">
+              h&#206;
+            </span>
             <span className="heading--main">
-              hi i am a sofware engineer
+              i am a sofware engineer
             </span>
             <span className="heading--sub">a full stack</span>
           </h1>

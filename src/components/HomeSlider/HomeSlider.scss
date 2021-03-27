@@ -1,3 +1,8 @@
+@import '../../sass/mixins';
+@import '../../sass/animations';
+
+
+
 .image-slider{
 
 height:100%;
@@ -15,38 +20,98 @@ height:100%;
 }
 
 .text-box{
- 
-  height:12rem;
-  max-width:114rem;
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  border:1px solid white;
-  padding:10rem;
-  //height:25rem;
+display:flex;
+ height:100%;
+ align-items:center;
+ justify-content:center;
+
+
+  @include responsive(phone){
+    max-width:100%;
+     padding:0rem;
+  }
 
 }
 
 .heading{
-  border:1px solid white;
+  flex:0 0 100%;
+  height:50%;
+  
   color:#f7f7f7;
   text-transform: uppercase;
   text-align: center;
-  display:block;
-    width:100%;
-    height:100%;
+  display:flex;
+  flex-direction: column;
+    line-height: 2;
+     @include responsive(phone){
+    line-height: 2;
+  }
+
+  &--greet{
+    font-size:4rem;
+    animation: moveToDown 1s ease forwards;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+
+        @include responsive(phone){
+          font-size:3rem;
+      
+        }
+  }
+
   
 &--main{
   white-space: nowrap;
   font-size:3.5rem;
   letter-spacing:3px;
   font-weight: 500;
+  display:block;
+  
+  animation: moveToDown 1s ease forwards;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+    @include responsive(phone){
+    font-size:2.3rem;
+  letter-spacing:1px;
+  font-weight: 400;
 
+  }
+  
+  //margin-bottom:5rem;
+  
 }
 
 &--sub{
   display:block;
+  font-size:2.6rem;
+  letter-spacing:2px;
+  font-weight: 400;
+  
+  animation: moveToLeft 1s ease forwards;
+  animation-duration: 4s;
+  animation-timing-function:ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state:running;
+    @include responsive(phone){
+    font-size:1.7rem;
+    letter-spacing:1px;
+    font-weight: 300;
+  }
 }
 }
+
+
 
