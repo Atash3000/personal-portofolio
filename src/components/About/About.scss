@@ -1,7 +1,9 @@
+@import '../../sass/mixins';
+
 .about {
   padding: 12rem 0;
 
-  background-color: #ecebeb;
+  background-image:linear-gradient(to right bottom ,rgb(189, 187, 187),rgb(233, 227, 227));
 
   display: grid;
   grid-template-columns: 1fr;
@@ -72,10 +74,14 @@
       &:hover {
         transform: scale(1.04);
         font-size: 2rem;
+        @include responsive(tablet-land){
+          transform: scale(1);
+          font-size: 1.6rem;
+        }
       }
 
 
-      &:not(:last-child) {}
+      
     }
 
     &--react {}

@@ -8,6 +8,7 @@ import HomeSlider from './components/HomeSlider/HomeSlider';
 import MediaBar from './components/SocialMedia/MediaBar';
 import About from './components/About/About';
 import {Link,Route,Switch} from 'react-router-dom';
+import WorkFlow from './components/WorkFlow/WorkFlow';
 
 
 function App() {
@@ -33,7 +34,9 @@ function App() {
           <Route  exact path="/">
           <HomeSlider/>
           </Route>
-          
+          <Route path="/wokflow">
+            <WorkFlow />
+          </Route>
     </Switch>
       </div>
       <main>
