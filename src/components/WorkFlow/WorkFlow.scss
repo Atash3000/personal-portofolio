@@ -1,0 +1,83 @@
+.workflow{
+  height:400vh;
+  padding: 0rem 0;
+  &__heading-box{
+    text-align: center;
+    background-color: deepskyblue;
+    height:7rem;
+    padding:5rem 0;
+  }
+
+  &__text{
+    display:inline-block;
+    text-transform: uppercase;
+    font-size:3.5rem;
+  }
+  
+}
+
+
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(30rem ,1fr));
+  grid-template-rows: repeat(auto-fit,minmax(20rem ,20rem));
+
+  grid-gap:4rem;
+  background-color: rgb(180, 190, 247);
+  padding:5rem;
+
+  &__items{
+  background-color: rgb(115, 134, 241);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.2s;
+    border:1px solid rgb(53, 255, 53);
+    box-shadow: 0 1rem 2rem rgba(#333,.7);
+    &:hover{
+      transform: scale(1.09);
+    }
+  }
+  &__image-box{
+  
+    
+  }
+
+  &__image{
+
+  }
+
+  &__description{
+
+  }
+
+  &__name{
+
+  }
+
+  &__text{
+
+  }
+
+  &__link{
+    color:#222;
+    text-decoration: none;
+    font-size:1.4rem;
+    text-transform: uppercase;
+    border-bottom:2px solid transparent;
+    padding-bottom:5px;
+    transition: all 0.2s;
+    &:active{
+    color:#222;
+
+    }
+
+    &:hover{
+      border-bottom:2px solid rgb(78, 247, 78);
+      color:rgb(78, 247, 78);
+    }
+  }
+}

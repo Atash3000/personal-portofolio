@@ -7,7 +7,7 @@ import MobileMenu from './components/MobileMenu/MobileMenu';
 import HomeSlider from './components/HomeSlider/HomeSlider';
 import MediaBar from './components/SocialMedia/MediaBar';
 import About from './components/About/About';
-import {Link,Route,Switch} from 'react-router-dom';
+import {Route,Switch} from 'react-router-dom';
 import WorkFlow from './components/WorkFlow/WorkFlow';
 
 
@@ -26,7 +26,7 @@ function App() {
         
         <Hamburger showMenu={showMenu} open={open}/>
         <MobileMenu/>
-        <MediaBar/>
+        {/* <MediaBar/> */}
         <Switch>
       <Route path="/about">
             <About />
@@ -34,15 +34,16 @@ function App() {
           <Route  exact path="/">
           <HomeSlider/>
           </Route>
-          <Route path="/wokflow">
+          <Route exact path="/wokflow">
             <WorkFlow />
           </Route>
     </Switch>
       </div>
       <main>
+      <WorkFlow />
       </main>
       </div>
-     
+    
     </div>
 
   );
