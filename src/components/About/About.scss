@@ -1,110 +1,104 @@
-.about{
-  padding:12rem 0 ;
-  
+.about {
+  padding: 12rem 0;
+
   background-color: #ecebeb;
-  border:2px solid red;
-  display:grid;
+
+  display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap:5rem;
- 
-  &__me{
+  grid-row-gap: 5rem;
+
+  &__me {
     // height:50%;
-    max-width:114rem;
-    margin:0 auto;
-   
+    max-width: 114rem;
+    margin: 0 auto;
+
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 2rem;
-    
-    color:black;
-    & p{
-      font-size:1.6rem;
-      line-height:1.7;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+    color: black;
+
+    & p {
+      font-size: 1.6rem;
+      line-height: 1.7;
       font-weight: 600;
-     &:not(:last-child){
-      margin-bottom:3rem;
-     }
+
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
     }
   }
 
-  &__heading{
+  &__heading {
     text-transform: capitalize;
-    color:black;
-    font-size:4rem;
-    margin:0 auto;
-    display:block;
-    
-    
+    color: black;
+    font-size: 4rem;
+    margin: 0 auto;
+    display: block;
+
+
   }
 
-  &__diagrama{
-  
-   
-  
+  &__diagrama {
+
+
+
     padding: 0 2rem;
-    max-width:114rem;
-    margin:0 auto;
-    font-size:1.6rem;
+    max-width: 114rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
     text-transform: uppercase;
-    
-    display:grid;
+
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap:4rem;
-    color:#fff;
+    grid-column-gap: 4rem;
+    color: #fff;
     font-weight: 600;
-   
-    &>*{
+
+    &>* {
       text-align: left;
-      transition:transform 0.3s ,font-size 0.3s;
-      
-      padding:1rem 2rem;
-      box-shadow: 0 1rem 1rem rgba(#000,.7);
-     
-      border:1px solid black;
-      background: rgb(3,203,254);
-      background: linear-gradient(41deg, rgba(3,203,254,1) 0%, rgba(18,202,249,1) 82%, rgba(254,254,254,1) 84%, rgba(238,232,232,1) 100%);
+      transition: transform 0.3s, font-size 0.3s;
+
+      padding: 1rem 2rem;
+      box-shadow: 0 1rem 1rem rgba(#000, .7);
+
+      border: 1px solid black;
+      background: rgb(3, 203, 254);
+      background: linear-gradient(41deg, rgba(3, 203, 254, 1) 0%, rgba(18, 202, 249, 1) 82%, rgba(254, 254, 254, 1) 84%, rgba(238, 232, 232, 1) 100%);
       margin-bottom: 1.5rem;
 
-      &:hover{
-        transform:scale(1.04);
-        font-size:2rem;
+      &:hover {
+        transform: scale(1.04);
+        font-size: 2rem;
       }
-      
-      
-      &:not(:last-child){
-       
-      }
-    }
-    &--react{
-      
-     
 
-     
-    }
-    &--mongo{
-     
+
+      &:not(:last-child) {}
     }
 
-    &--express{
-    
-    }
+    &--react {}
+
+    &--mongo {}
+
+    &--express {}
   }
 }
-.skills{
-  text-align:center;
+
+.skills {
+  text-align: center;
 }
 
-.grid{
- 
- 
- height:100%;
- 
-  
+.grid {
+
+
+  height: 100%;
+
+
 }
 
 
-.u-margin-bottom-med{
-  margin-bottom:5rem;
+.u-margin-bottom-med {
+  margin-bottom: 5rem;
 }
