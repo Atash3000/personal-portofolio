@@ -7,7 +7,7 @@ import MobileMenu from './components/MobileMenu/MobileMenu';
 import HomeSlider from './components/HomeSlider/HomeSlider';
 import MediaBar from './components/SocialMedia/MediaBar';
 import About from './components/About/About';
-import {Route,Switch,Redirect} from 'react-router-dom';
+import {Route,Switch} from 'react-router-dom';
 import WorkFlow from './components/WorkFlow/WorkFlow';
 
 
@@ -24,7 +24,7 @@ function App() {
       <div className={`App__container App__container--${open}`}>
       <Header/>
       <Switch> 
-       
+    
       <Route exact path='/workflow' > <WorkFlow /> </Route> 
       <Route exact path='/'> <HomeSlider/> </Route>
       <Route exact path='/about'> <About /> </Route>

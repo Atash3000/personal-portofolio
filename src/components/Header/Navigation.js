@@ -1,10 +1,8 @@
 import React from 'react'
 import './Navigation.scss';
 
-import {Link,Route,Switch} from 'react-router-dom';
-import WorkFlow from '../WorkFlow/WorkFlow';
-import HomeSlider from '../HomeSlider/HomeSlider';
-import About from '../About/About';
+import {Link,} from 'react-router-dom';
+
 
 
  
