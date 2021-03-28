@@ -9,6 +9,8 @@ import MediaBar from './components/SocialMedia/MediaBar';
 import About from './components/About/About';
 import {Route,Switch} from 'react-router-dom';
 import WorkFlow from './components/WorkFlow/WorkFlow';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -24,12 +26,16 @@ function App() {
       <div className={`App__container App__container--${open}`}>
       <Header/>
       <Switch> 
-    
+     
       <Route exact path='/workflow' > <WorkFlow /> </Route> 
       <Route exact path='/'> <HomeSlider/> </Route>
       <Route exact path='/about'> <About /> </Route>
+      <Route exact path='/contact' > <Contact /> </Route> 
       <Route exact path='/work-flow'> <WorkFlow /> </Route>
+    
       </Switch>
+      {/* <Route  path='/'> <Footer /> </Route> */}
+      <Footer/>
         <Hamburger showMenu={showMenu} open={open}/>
         <MediaBar/>
         <MobileMenu/>

@@ -1,3 +1,6 @@
+@import 'mixins';
+
+
 *::after,
 *::before,
 *{
@@ -10,6 +13,17 @@ html{
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
+ 
+    @include responsive(tab-port){
+    font-size:52%;
+  }
+   @include responsive(phone){
+    font-size:45%;
+  }
+
+    @include responsive(big-desktop){
+    font-size:72%;
+  }
 }
 
 body{
@@ -28,12 +42,4 @@ min-width: 32rem;
   max-height: 100%;
   //border:2px solid rgb(33, 226, 27);
   
-}
-
-@media (max-width: 900px){
-  html{
-  
-    font-size: 52.5%;
-  
-  }
 }

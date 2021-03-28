@@ -8,13 +8,13 @@
  // height: 200vh !important;
   background-color: rgb(237, 240, 235);
   
- 
+
   &__heading-box{
     text-align: center;
     //background-color: rgb(187, 232, 247);
-   
-     padding:5rem 0;
-     @include responsive(tablet-port){
+  
+    padding:5rem 0;
+    @include responsive(tablet-port){
       padding:3rem 0;
     }
   }
