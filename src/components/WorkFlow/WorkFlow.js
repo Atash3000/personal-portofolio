@@ -5,6 +5,7 @@ import './WorkFlow.scss';
 import datingApp from './images/dating-app.jpg';
 import safari from './images/safari.jpg';
 import jeyhun from './images/jeyhun.jpg';
+import todo from './images/todo.jpg';
 
 
 
@@ -22,7 +23,7 @@ function WorkFlow() {
           <div className="grid-card__description">
               <h3 className="grid-card__name">Dating app</h3>
               <p className="grid-card__text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ex at dicta.
+                A dating website to find people eact other and get connected.
               </p>
           </div>
             <a target="_blank" href='https://github.com/Atash3000/dateing-web' className="grid-card__link" > learn more &#8594; </a>
@@ -34,7 +35,7 @@ function WorkFlow() {
           <div className="grid-card__description">
               <h3 className="grid-card__name">Safari Tours</h3>
               <p className="grid-card__text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ex at dicta.
+               Dubai Safari Tours to give people most advanture tour.
               </p>
           </div>
             <a  target="_blank" href='https://safari-dubai.netlify.app/' className="grid-card__link" > learn more &#8594; </a>
@@ -56,15 +57,15 @@ function WorkFlow() {
 
           <div className="grid-card__items"> 
           <div className="grid-card__image-box" >
-              <img  className="grid-card__image" alt='safari' src={datingApp} />
+              <img  className="grid-card__image" alt='todo app' src={todo} />
             </div>
           <div className="grid-card__description">
-              <h3 className="grid-card__name">Dating app</h3>
+              <h3 className="grid-card__name">To Do App</h3>
               <p className="grid-card__text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ex at dicta.
+                To Do app created in React using CONTEXT.
               </p>
           </div>
-            <a  target="_blank" href='#' className="grid-card__link" > learn more &#8594; </a>
+            <a  target="_blank" href='https://react-context-todo.netlify.app/' className="grid-card__link" > learn more &#8594; </a>
           </div>
 
 
