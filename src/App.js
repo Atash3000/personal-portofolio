@@ -33,6 +33,7 @@ function App() {
       <div className="wrapper">
       <div className={`App__container App__container--${open}`}>
       <Header/>
+      <Redirect to ='/'/>
       <Switch> 
      
       <Route exact path='/workflow' > <WorkFlow /> </Route> 
