@@ -7,16 +7,17 @@
   // grid-gap:0 !important;
 
 
-
+ 
 }
 
 .App{
   //height:200%;
   overflow: hidden;
+ 
   //overflow-x: hidden !important;
   &__container{
     position: relative;
-    
+   
     padding: 11rem 0 0 0;
     @include responsive(tablet-land){
       padding: 9rem 0 0 0;
