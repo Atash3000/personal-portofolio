@@ -48,8 +48,7 @@ function WorkFlow() {
           <div className="grid-card__description">
               <h3 className="grid-card__name">Jeyhun restaurant</h3>
               <p className="grid-card__text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ex at dicta.
-              </p>
+                Single page application build in HTML/CSS.              </p>
           </div>
             <a  target="_blank" href='https://github.com/Atash3000/Jeyhun-restaurant' className="grid-card__link" > learn more &#8594; </a>
           </div>
@@ -62,7 +61,7 @@ function WorkFlow() {
           <div className="grid-card__description">
               <h3 className="grid-card__name">To Do App</h3>
               <p className="grid-card__text">
-                To Do app created in React using CONTEXT.
+                To Do app fully functional created in React using REACT CONTEXT.
               </p>
           </div>
             <a  target="_blank" href='https://react-context-todo.netlify.app/' className="grid-card__link" > learn more &#8594; </a>
