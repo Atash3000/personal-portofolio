@@ -27,9 +27,9 @@ function About() {
       
       <span className="about__diagrama--react">react/redux</span>
       <span className="about__diagrama--html">html</span>
-      <span className="about__diagrama--css">css/sass/scss</span>
-      <span className="about__diagrama--javascript">javascript</span>
-      <span className="about__diagrama--node">node js</span>
+      <span className="about__diagrama--css">css/sass/scss/bootdtrap</span>
+      <span className="about__diagrama--javascript">javascript/ES6/ES8</span>
+      <span className="about__diagrama--node">node js/API/JSON</span>
       <span className="about__diagrama--express">express js</span>
       <span className="about__diagrama--mongo">mongo DB</span>
       <span className="about__diagrama--github">git/github</span>
