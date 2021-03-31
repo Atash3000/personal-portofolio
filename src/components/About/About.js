@@ -10,11 +10,12 @@ function About() {
       <div className="about__me">
         <h2 className="about__heading u-margin-bottom-med">about me</h2>
         <p>Full stack web developer, former visual designer </p>
-          <p> Currently seeking to work with awesome people either in an agency setting or on a product development team. </p>
+          <p> Currently seeking to work with awesome people either in an agency setting or on a product development team.Aviable to work remotly. </p>
           
-          <p>In 2019 I worked with company, we developed two react apps: a consumer facing web app, as well as a merchant point-of-sale app, combining the new Modo Payments API for travel.</p>
+          <p>In 2020 I worked with company, we developed two react apps: a consumer facing web app, as well as a merchant point-of-sale app, combining the new Modo Payments API for travel.</p>
 
           <p> I have a background in visual design, I am also a graduate of Skill Box Web Development Immersive in early 2019.</p>
+          <p>I live in Brooklyn, NY</p>
       </div>
       <div className="skills">  <h2 className="about__heading">skills</h2> </div>
 
