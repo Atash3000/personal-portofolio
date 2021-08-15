@@ -21,7 +21,7 @@ function WorkFlow() {
               <img  className="grid-card__image" alt='dating-app' src={datingApp} />
             </div>
           <div className="grid-card__description">
-              <h3 className="grid-card__name">Dating app</h3>
+              <h3 className="grid-card__name">Datinggggg app</h3>
               <p className="grid-card__text">
                 A dating website to find people eact other and get connected.
               </p>

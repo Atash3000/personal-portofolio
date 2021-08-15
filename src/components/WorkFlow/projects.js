@@ -1,7 +1,7 @@
 export  const data [
   {
     "id":1,
-    "name":"Safari",
+    "name":"Safaria dubai",
     "image": '/static/media/safari.3c814a27.jpg',
     "link":"https://safari-dubai.netlify.app/",
     "description":"Dubai Safari Tours"
