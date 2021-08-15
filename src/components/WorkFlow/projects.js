@@ -34,7 +34,7 @@ export  const data [
   },
   {
     "id":5,
-    "name":"Safari",
+    "name":"Safaro",
     "image": '/static/media/dating-app.14cfbb54.jpg',
     "link":"https://safari-dubai.netlify.app/",
     "description":"Dubai Safari Tours"
